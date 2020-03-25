@@ -29,8 +29,8 @@ p{
 }
 section{
     height: 500px;
-    padding: 02em 7em;
-    padding-bottom: 200px;
+    padding: 02em 02em;
+    padding-bottom: 150px;
 }
 .link-button{
     text-decoration: none;
@@ -43,6 +43,9 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.dream-area .half-width{
+    float: left;
 }
 .single-experience{
     box-shadow: 10px 10px 40px gray;
@@ -72,15 +75,28 @@ footer p{
 @media (max-width: 768px){
     .half-width{
         display: table;
-        width: 100%;
+        width: 70%;
+        margin: 6%;
+        padding: 6%;
+    }
+    h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    h2{
+        font-size: 30px;
+        text-align: center;
     }
     .half-width img{
         width: 100%;
         height: auto;
         float: left;
     }   
-    .single-experience{
-        padding-bottom: 20px;
+    .exp-section{
+        text-align: center;
+    }
+    footer{
+        display: none;
     }
 }
 
